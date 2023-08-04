@@ -1,0 +1,16 @@
+
+body{
+    background-color: #fef7e1;
+}
+
+.landing-page{
+    background: white url(/images/2.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.landing-page .wrapper{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}

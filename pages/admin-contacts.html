@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/cdddd9740b.js" crossorigin="anonymous"></script>
+    
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container">
+        <a class="navbar-brand text-light" href="#">Contact <span class="text-warning">Manager</span></a>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav me-auto mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active me-auto text-light" href="/pages/display-contacts.html">Display</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active me-auto text-light" href="/pages/admin-contacts.html">Admin</a>
+            </li>
+          </ul> 
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-3">
+        <div class="row">
+          <div class="col">
+            <h2>Admin Page</h2>
+            <p class="fst-italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum cum vitae molestiae assumenda quo corrupti iusto ut perferendis illum velit aperiam modi fuga, illo fugiat? Quae incidunt architecto ratione voluptatibus?</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-3">
+        <div class="row">
+            <div class="col">
+                <a href="/pages/add-contact.html" class="btn btn-success"><i class="fa-solid fa-circle-plus"></i> New</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="container mt-3">
+        <div class="row">
+            <div class="col ">
+                    <table class="table table-hover ">
+                        <thead class="bg-dark ">
+                            <tr class="text-light text-center">
+                                <th>S.NO</th>
+                                <th>Image</th>
+                                <th>Name</th>
+                                <th>Mobile</th>
+                                <th>Title</th>
+                                <th>Company</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="contact-table-body" class="text-center">
+
+                        </tbody>
+                    </table>
+            </div>
+        </div>
+      </div>
+ 
+
+
+
+
+ 
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script type="module" src="../scripts/admin-contacts.js"></script>
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
